@@ -1,0 +1,71 @@
+body {
+  font-family: "Tenor Sans", sans-serif;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle-singleline {
+  margin: 20px;
+  width: 44px;
+  height: 37px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 36px;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255, 255, 255); /* Black background with opacity */
+  z-index: 9999; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.circle-border {
+  color: black;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 50%;
+  height: 37px;
+}
+
+.color-circle-border {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid gray;
+  border-radius: 50%;
+  width: 32px;
+  height: 31px;
+  line-height: 27px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+}
+
+toggle-off {
+  display: none;
+}/*# sourceMappingURL=index.css.map */
