@@ -117,7 +117,20 @@ $("#cartMinus").click(function (e) {
     <i id="x-mark" class="fa-solid fa-xmark fa-2xl" style="color: #000000;
       cursor:pointer"></i>
     <h3 class="mt-5">CART</h3></div>
-    <h3 class="text-center align-center">Empty cart</h3>` 
+    <h3 class="text-center align-center">Empty cart</h3>
+    <footer class="bg-dark bottom-0 position-absolute w-100">
+    <div class="d-flex align-items-center
+      justify-content-center m-3">
+      <div class="d-flex align-items-center justify-content-between m-4
+        gap-3" style="cursor:pointer">
+        <i class="fa-solid fa-bag-shopping fa-2xl" style="color:white"></i>
+        <h3 id="buyNowText" class="text-light m-0" style="font-size:
+          14px">CONTINUE SHOPPING</h3>
+      </div>
+    </div>
+
+  </footer>
+    ` 
 
     e.preventDefault();
     if(basket_counter == 1){
